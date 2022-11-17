@@ -1,0 +1,73 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    font-family: 'Franklin Gothic Medium';
+}
+ul{
+    list-style: none;
+}
+.navigasi a{
+    color: white;
+    margin-right: 20px;
+}
+.nav-bg{
+    background-color: black;
+    width: 100%;
+}
+.navbar{
+    display: flex;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+.countainer{
+    display: flex;
+    align-items:center;
+    justify-content:space-around;
+    width: 100%;
+    padding-right:0.75rem;
+    padding-left: 0.75rem;
+    margin: 0 auto;
+}
+.nama{
+    color: white;
+    font-family: courier;
+    font-weight: bold;
+}
+.pencarian{
+    display: flex;
+}
+.cari{
+    display:block;
+    width:400px;
+    padding: 8px 16px;
+    margin: 0 10px;
+    border-radius: 3px;
+    border: none;
+    
+}
+.tombol{
+    padding: 8px 16px;
+    border-radius: 3px;
+    border: none;
+}
+.tombol:hover{
+    background-color: white;
+}
+.navigasi {
+    display:block;
+}
+.navigasi ul a{
+    padding: 10px;
+    display: block;
+    text-decoration: none;
+}
+.navigasi ul{
+    display: flex;
+}
+.navigasi ul a:hover{
+    background-color:white;
+    color: black;
+    border-radius: 5px;
+}
